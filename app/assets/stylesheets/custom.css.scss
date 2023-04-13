@@ -1,0 +1,32 @@
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+  background-color: grey;
+  text-align: center;
+  background-image: asset-url('write.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 470px;
+  color: white;
+}
+
+.sign-up {
+  background-color: green;
+}
