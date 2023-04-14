@@ -1,9 +1,11 @@
-<div class='index'>
-  <h1 class='text-center mt-4' >Listing all articles</h1>
+<h1 class='text-center mt-4' >Listing all articles</h1>
 
-  <%= render 'article' %>
+<div class="flickr_pagination"> 
+  <%= will_paginate(@articles, previous_label: "previous", next_label: "next") %>
 </div>
 
-<p>
-  <td><%= link_to 'Create a new article', new_article_path %></td>
-</p>
+<%= render 'article' %>
+
+<div class="flickr_pagination mt-4 mb-4"> 
+  <%= will_paginate(@articles, previous_label: "previous", next_label: "next") %>
+</div>
